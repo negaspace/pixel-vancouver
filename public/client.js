@@ -319,7 +319,7 @@ function preload() {
 
     var logoSheet = loadSpriteSheet(ASSETS_FOLDER + LOGO_FILE, 66, 82, 4);
     logo = loadAnimation(logoSheet);
-    logo.frameDelay = 10;
+    logo.frameDelay = 30;
 
     var walkIconSheet = loadSpriteSheet(ASSETS_FOLDER + "walkIcon.png", 6, 8, 4);
     walkIcon = loadAnimation(walkIconSheet);

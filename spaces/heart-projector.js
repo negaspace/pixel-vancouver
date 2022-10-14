@@ -19,9 +19,14 @@ module.exports = {
 			curationLeftScreenGlow: { file: "screenLargeGlow.png", frames: 2, frameDelay: 60, position: [22, 53], visible:true },
 			curationLeftPlacard: { file: "placardTable.png", frames: 1, position: [43, 67], visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [43, 80] } },
 			
+			curationRightScreen: { file: "screenSmall.png", frames: 1, position: [61, 66], visible:true, label: "A game", depthAdjust:14, command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [61, 82] } },
+			curationRightScreenGlow: { file: "screenSmallGlow.png", frames: 2, frameDelay: 60, position: [51, 56], visible:true, depthAdjust:4 },
+			curationRightPlacard: { file: "placardTable.png", frames: 1, position: [69, 70], visible:true, label: "A placard", depthAdjust:12, command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [62, 81] } },
+			
 			curationProjectorScreen: { file: "screenProjectorBar.png", frames: 1, position: [99, 12], visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [103, 97] } },
 			curationProjectorScreenGlow: { file: "screenProjectorBarGlow.png", frames: 2, frameDelay: 60, position: [99, 12], visible:true },
             curationProjectorPlacard: { file: "placardTableQuarterTurn.png", frames: 1, position: [87, 79], visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [86, 97] } },
+			
 		}
     },
 
@@ -51,6 +56,10 @@ module.exports = {
 			curationRightScreen: { file: "screenSmall.png", frames: 1, position: [60, 70], visible:true, label: "A game", depthAdjust:14, command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [61, 82] } },
 			curationRightScreenGlow: { file: "screenSmallGlow.png", frames: 2, frameDelay: 60, position: [50, 60], visible:true, depthAdjust:4 },
 			curationRightPlacard: { file: "placardTable.png", frames: 1, position: [68, 71], visible:true, label: "A placard", depthAdjust:12, command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [69, 82] } },
+			
+			curationLeft2Screen: { file: "screenMedium.png", frames: 1, position: [80, 69], visible:true, label: "A game", depthAdjust:14, command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [80, 82] } },
+			curationLeft2ScreenGlow: { file: "screenMediumGlow.png", frames: 2, frameDelay: 60, position: [70, 59], visible:true, depthAdjust:4 },
+			curationLeft2Placard: { file: "placardTable.png", frames: 1, position: [85, 71], visible:true, label: "A placard", depthAdjust:12, command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [85, 82] } },
 		}
     },
 
@@ -116,11 +125,30 @@ module.exports = {
             //sprite spreadsheets only 1 row ok?
             glitchMoon: { file: "glitchMoon.png", frames: 1, frameDelay: 1, position: [102, 2], id: "glitchMoon", visible: false },
 			chair: { file: "oldspaceOutsideChair.png", frames: 2, frameDelay: 40, position: [12, 25], depthAdjust:8 },
-			computer: { file: "oldspaceOutsideComputer.png", frames: 1, position: [63, 22], depthAdjust:0 },
+			chair2: { file: "oldspaceOutsideChair2.png", position: [110, 69], depthAdjust:69 },
+			computer: { file: "oldspaceOutsideComputer.png", frames: 1, position: [66, 22], depthAdjust:0 },
+			batSignal: { file: "room_oldspace_outside_skyProjection.png", frames: 1, position: [47, 22], depthAdjust:0 },
+			batProjector: { file: "room_oldspace_outside_batProjector.png", frames: 1, position: [56, 42], depthAdjust:0 },
 			
-			curationMainframeScreen: { file: "screenMedium.png", frames: 1, position: [66, 51], depthAdjust:12, visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [68, 69] } },
+			curationMainframeScreen: { file: "screenMedium.png", frames: 1, position: [66, 51], depthAdjust:12, visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [66, 69] } },
 			curationMainframeScreenGlow: { file: "screenMediumGlow.png", frames: 2, frameDelay: 60, position: [56, 41], depthAdjust:12, visible:true },
-			curationMainframePlacard: { file: "placardTableQuarterTurn.png", frames: 1, position: [80, 70], depthAdjust:-4, visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [76, 76] } },
+			curationMainframePlacard: { file: "placardTableQuarterTurn.png", frames: 1, position: [75, 70], depthAdjust:-4, visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [75, 71] } },
+			
+			curationMainframe2Screen: { file: "screenMedium.png", frames: 1, position: [101, 58], depthAdjust:12, visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [99, 75] } },
+			curationMainframe2ScreenGlow: { file: "screenMediumGlow.png", frames: 2, frameDelay: 60, position: [91, 48], depthAdjust:12, visible:true },
+			curationMainframe2Placard: { file: "placardTableQuarterTurn.png", frames: 1, position: [90, 70], depthAdjust:-4, visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [89, 72] } },
+			
+			curationTableLeftScreen: { file: "screenHuge.png", frames: 1, position: [55, 17], depthAdjust:18, visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [55, 49] } },
+			curationTableLeftScreenGlow: { file: "screenHugeGlow.png", frames: 2, frameDelay: 60, position: [45, 7], depthAdjust:8, visible:true },
+            curationTableLeftPlacard: { file: "placardTable.png", frames: 1, position: [60, 46], depthAdjust:12, visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [60, 47] } },
+			
+            curationTableRightScreen: { file: "screenLarge.png", frames: 1, position: [18, 48], depthAdjust:18, visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [23, 63] } },
+			curationTableRightScreenGlow: { file: "screenLargeGlow.png", frames: 2, frameDelay: 60, position: [8, 38], depthAdjust:8, visible:true },
+            curationTableRightPlacard: { file: "placardTable.png", frames: 1, position: [32, 53], depthAdjust:12, visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [33, 64] } },
+			
+			curationTableRight2Screen: { file: "screenMedium.png", frames: 1, position: [112, 80], depthAdjust:78, visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [108, 89] } },
+			curationTableRight2ScreenGlow: { file: "screenMediumGlow.png", frames: 2, frameDelay: 60, position: [102, 70], depthAdjust:78, visible:true },
+            curationTableRight2Placard: { file: "placardTableQuarterTurn.png", frames: 1, position: [102, 85], depthAdjust:12, visible:true, label: "A placard", command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [101, 87] } },
         }
     },
 }

@@ -39,18 +39,22 @@ module.exports = {
         area: "TPCAhallway2-areas.png",
         areaColors: {
             // exits
-            h7c7c7c: { cmd: "enter", room: "TPCAcheckin", label: "Check-Up Room", point: [11, 48], enterPoint: [38, 62], obstacle: false },
-			      h00ffee: { cmd: "enter", room: "TPCAcheckin", label: "Go to work", point: [117, 48], enterPoint: [86, 67], obstacle: false },
+        h7c7c7c: { cmd: "enter", room: "TPCAcheckin", label: "Check-Up Room", point: [11, 48], enterPoint: [38, 62], obstacle: false },
+		
+		h00ffee: { cmd: "enter", room: "TPCAcheckin", label: "Go to work", point: [117, 48], enterPoint: [86, 67], obstacle: false },
    
-            h0000ff: { cmd: "enter", room: "TPCAFireRoom", label: "Bonfire", point: [95, 16], enterPoint: [15, 94], obstacle: false },
+        h0000ff: { cmd: "enter", room: "TPCAFireRoom", label: "Bonfire", point: [95, 16], enterPoint: [15, 94], obstacle: false },
+		
 	    hff0000: { cmd: "enter", room: "TPCAColourRoom", label: "Lost and Found", point: [32, 17], enterPoint: [67, 94], obstacle: false },
+		
 	    h55ffff: { cmd: "enter", room: "TPCAHallway1", label: "Exhibition Hall South", point: [66, 84], enterPoint: [67, 16], obstacle: false },
-            hf000ff: { cmd: "enter", room: "powellAndClark", label: "Fire Exit - Alarm Will Not Sound", point: [13, 83], enterPoint: [45, 77], obstacle: false },
+		
+        hf000ff: { cmd: "enter", room: "powellAndClark", label: "Fire Exit - Alarm Will Not Sound", point: [13, 83], enterPoint: [45, 77], obstacle: false },
 
 			//didactic panels
 
 		h450000: {cmd: "text", label: "Exhibit Label", txt: "Check In\nLouise Chow, 2021", point: [16, 32], align: "center", lines: 2, },
-		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Colour Room\nLouise Chow, 2021", point: [45, 19], align: "center", lines: 2, },
+		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, 2021\n\A room to find your reflection\n\in an other again.", point: [45, 19], align: "center", lines: 4, },
 		hff6600: {cmd: "text", label: "Exhibit Label", txt: "The Bonfire Effect (narrative series)\nKay Slater, 2021\n\nAn exploration of intimacy via pixels, flames, and storytelling.\n\nScheduled story times will be posted on the tour info panel in the main hall. The bonfire can be visited anytime.", point: [82, 20], align: "center", lines: 11, },
 		hfeff00: {cmd: "text", label: "Exhibit Label", txt: "Visit our website through\nthis public terminal", point: [112, 72], align: "center", lines: 2, },
                 h666633: {cmd: "text", label: "Exit Sign", txt: "", point: [15, 80], align: "center", lines: 1, },

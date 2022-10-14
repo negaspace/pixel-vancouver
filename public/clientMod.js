@@ -325,6 +325,16 @@ var curationData = {
 				gameplayText:"The gameplay6 fills your senses...",
 				gameplayUrl:"https://itch.io/game6"
             },
+			
+			left2: {
+                thingId: "Left2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 6",
+				placardDescriptionText:"\"A test description 6.\"",
+				placardAuthorText:"A videogame by Author6",
+				gameplayText:"The gameplay6 fills your senses...",
+				gameplayUrl:"https://itch.io/game6"
+            },
             right: {
                 thingId: "Right",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
@@ -338,6 +348,15 @@ var curationData = {
 		oldspaceBar: {
 			left: {
                 thingId: "Left",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 8",
+				placardDescriptionText:"\"A test description 8.\"",
+				placardAuthorText:"A videogame by Author8",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://itch.io/game8"
+            },
+			Right: {
+                thingId: "Right",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
 				placardTitleText:"Testing Game 8",
 				placardDescriptionText:"\"A test description 8.\"",
@@ -366,7 +385,64 @@ var curationData = {
 				gameplayText:"The gameplay10 fills your senses...",
 				gameplayUrl:"https://itch.io/game10"
             },
+			mainframe2: {
+                thingId: "Mainframe2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 10",
+				placardDescriptionText:"\"a test description 10.\"",
+				placardAuthorText:"A videogame by Author10",
+				gameplayText:"The gameplay10 fills your senses...",
+				gameplayUrl:"https://itch.io/game10"
+            },
+			left: {
+                thingId: "Left",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 8",
+				placardDescriptionText:"\"A test description 8.\"",
+				placardAuthorText:"A videogame by Author8",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://itch.io/game8"
+            },
+			Right: {
+                thingId: "Right",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 8",
+				placardDescriptionText:"\"A test description 8.\"",
+				placardAuthorText:"A videogame by Author8",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://itch.io/game8"
+            },
+			Right2: {
+                thingId: "Right2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 8",
+				placardDescriptionText:"\"A test description 8.\"",
+				placardAuthorText:"A videogame by Author8",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://itch.io/game8"
+            },
 		},
+		Stairwell: {
+            Right: {
+                thingId: "Right",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 1",
+				placardDescriptionText:"\"A test description 1.\"",
+				placardAuthorText:"A videogame by Author1",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://itch.io/game1"
+            },
+			Left: {
+                thingId: "Left",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Testing Game 1",
+				placardDescriptionText:"\"A test description 1.\"",
+				placardAuthorText:"A videogame by Author1",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://itch.io/game1"
+            },
+            
+        },
     }
 }
 
@@ -1054,22 +1130,14 @@ function TPCAApartmentsTalk (playerId, bubble) {
 
 function TPCAMapRoomEnter(playerId, roomId) {
 	
-		var randomText = floor(random(1, 4));
+		var randomText = floor(random(1, 2));
 		
 		if (randomText == 1) {    
-			longText = "If we could go anywhere...";
-			longTextLines = -1;
-			longTextAlign = "center";
-		} else if (randomText == 2) {    
-			longText = "Where am I?";
-			longTextLines = -1;
-			longTextAlign = "center";
-		} else if (randomText == 3) {    
-			longText = "Do I belong here?";
+			longText = "I dreamt we hatched and our limbs became fins\n\and we helped each other tap into a memory";
 			longTextLines = -1;
 			longTextAlign = "center";
 		} else {
-			longText = "What are you doing here?";
+			longText = "I dreamt we hatched and our limbs became fins\n\and we helped each other tap into a memory";
 			longTextLines = -1;
 			longTextAlign = "center";
 		}
