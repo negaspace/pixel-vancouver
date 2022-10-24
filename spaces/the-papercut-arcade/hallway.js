@@ -10,7 +10,7 @@ module.exports = {
         areaColors: {
             // exits
             
-            h00ff00: { cmd: "enter", room: "TPCAMapRoom", label: "Map Room", point: [115, 43], obstacle: false },
+            h00ff00: { cmd: "enter", room: "TPCAMapRoom", label: "River Dream", point: [115, 43], obstacle: false },
             hf000ff: { cmd: "enter", room: "TPCATavern", label: "The Filthy Lyre", point: [11, 42], enterPoint: [113, 86], obstacle: false },
             h55ffff: { cmd: "enter", room: "elevator", label: "Elevator", point: [66, 97], enterPoint: [64, 68], obstacle: false },
 	    h009999: { cmd: "enter", room: "TPCAWashRoom", label: "Universal Washroom", point: [115, 80], enterPoint: [11, 83], obstacle: false },
@@ -23,7 +23,7 @@ module.exports = {
 			//didactic panels
 		h450000: {cmd: "text", label: "Tour Information Panel", txt: "No tours are currently scheduled", point: [17, 91], align: "center", lines: 1, },
 		h666633: {cmd: "text", label: "Exhibit Label", txt: "The Filthy Lyre \nChristopher Alan Slater, 2021", point: [16, 25], align: "center", lines: 2, },
-		h6666cc: {cmd: "text", label: "Exhibit Label", txt: "Map Room \nLouise Chow, 2021", point: [113, 35], align: "center", lines: 2, },
+		h6666cc: {cmd: "text", label: "Exhibit Label", txt: "River Dream\nLouise Chow, 2021\nSwimming together means we won't get lost", point: [113, 35], align: "center", lines: 4, },
 		hff9999: {cmd: "text", label: "Exhibit Label", txt: "All Genders Universal Washroom\nKay Slater, 2021\n\nDigital sculpture.\n\nNo budget restrictions, homophobic and transantagonistic policies, or focused-on-code-only facilities managers (and architects) allowed dreaming space.", point: [113, 63], align: "center", lines: 11, },
 	
         },
@@ -53,8 +53,8 @@ module.exports = {
 
 			//didactic panels
 
-		h450000: {cmd: "text", label: "Exhibit Label", txt: "Check In\nLouise Chow, 2021", point: [16, 32], align: "center", lines: 2, },
-		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, 2021\n\A room to find your reflection\n\in an other again.", point: [45, 19], align: "center", lines: 4, },
+		h450000: {cmd: "text", label: "Exhibit Label", txt: "Patient Room\nLouise Chow, 2021\n Be patient with each other here", point: [16, 32], align: "center", lines: 2, },
+		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, Brendan Vance, 2021\nA room to find your reflection\n\in an other again.", point: [45, 19], align: "center", lines: 4, },
 		hff6600: {cmd: "text", label: "Exhibit Label", txt: "The Bonfire Effect (narrative series)\nKay Slater, 2021\n\nAn exploration of intimacy via pixels, flames, and storytelling.\n\nScheduled story times will be posted on the tour info panel in the main hall. The bonfire can be visited anytime.", point: [82, 20], align: "center", lines: 11, },
 		hfeff00: {cmd: "text", label: "Exhibit Label", txt: "Visit our website through\nthis public terminal", point: [112, 72], align: "center", lines: 2, },
                 h666633: {cmd: "text", label: "Exit Sign", txt: "", point: [15, 80], align: "center", lines: 1, },
