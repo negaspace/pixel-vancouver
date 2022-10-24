@@ -272,101 +272,203 @@ var curationData = {
             right: {
                 thingId: "Right",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 1",
-				placardDescriptionText:"\"A test description 1.\"",
-				placardAuthorText:"A videogame by Author1",
+				placardTitleText:"I Was A Teenage Exocolonist",
+				placardDescriptionText:"\"Coming of age on a faraway planet.\"",
+				placardAuthorText:"A videogame by Northway Games",
 				gameplayText:"The gameplay1 fills your senses...",
-				gameplayUrl:"https://itch.io/game1"
+				gameplayUrl:"https://exocolonist.com/"
             },
             left: {
                 thingId: "Left",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 2",
-				placardDescriptionText:"\"A test description 2.\"",
-				placardAuthorText:"A videogame by Author2",
+				placardTitleText:"Mossfield Origins",
+				placardDescriptionText:"\"Regeneration and community in a cozy city builder.\"",
+				placardAuthorText:"A videogame by Studio Any Percent",
 				gameplayText:"The gameplay2 fills your senses...",
-				gameplayUrl:"https://itch.io/game2"
+				gameplayUrl:"https://anypercent.studio/mossfield-origins/"
             },
 			tableLeft: {
                 thingId: "TableLeft",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 3",
-				placardDescriptionText:"\"A test description 3.\"",
-				placardAuthorText:"A videogame by Author3",
+				placardTitleText:"Hill Agency: PURITY/decay",
+				placardDescriptionText:"\"Mystery in a cybernoir Indigenous future..\"",
+				placardAuthorText:"A videogame by Achimostawinan Games",
 				gameplayText:"The gameplay3 fills your senses...",
-				gameplayUrl:"https://itch.io/game3"
+				gameplayUrl:"https://achimogames.itch.io/hill-agency-puritydecay"
             },
 			tableRight: {
                 thingId: "TableRight",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 4",
-				placardDescriptionText:"\"A test description 4.\"",
-				placardAuthorText:"A videogame by Author4",
+				placardTitleText:"River Sturge",
+				placardDescriptionText:"\"..This fish dreams of being the BIGGEST.\"",
+				placardAuthorText:"A videogame by Kyle Van Winkoop",
 				gameplayText:"The gameplay4 fills your senses...",
-				gameplayUrl:"https://itch.io/game4"
+				gameplayUrl:"https://gamesinaction.squarespace.com/kyle-van-winkoop"
             },
             projector: {
                 thingId: "Projector",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 5",
-				placardDescriptionText:"\"A test description 5.\"",
-				placardAuthorText:"A videogame by Author5",
+				placardTitleText:"Shape of the World",
+				placardDescriptionText:"\"..a forest of sound and light will spring up around you..\"",
+				placardAuthorText:"A videogame by Stu Maxwell",
 				gameplayText:"The gameplay5 fills your senses...",
-				gameplayUrl:"https://itch.io/game5"
-            },
+				gameplayUrl:"http://www.shapeoftheworldgame.com/game"
+            }
         },
 		oldspaceLounge: {
 			left: {
                 thingId: "Left",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 6",
-				placardDescriptionText:"\"A test description 6.\"",
-				placardAuthorText:"A videogame by Author6",
+				placardTitleText:"Shock Lobster",
+				placardDescriptionText:"\"An aquaventure for the Game Boy!\"",
+				placardAuthorText:"A videogame by tbsp",
 				gameplayText:"The gameplay6 fills your senses...",
-				gameplayUrl:"https://itch.io/game6"
+				gameplayUrl:"https://tbsp.itch.io/shock-lobster"
+            },
+			left2: {
+                thingId: "Left2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Circuit Superstars",
+				placardDescriptionText:"\"A top-down racer built by racing fans, for racing fans.\"",
+				placardAuthorText:"A videogame by Original Fire Games",
+				gameplayText:"The gameplay6 fills your senses...",
+				gameplayUrl:"https://www.circuit-superstars.com/"
             },
             right: {
                 thingId: "Right",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 7",
-				placardDescriptionText:"\"A test description 7.\"",
-				placardAuthorText:"A videogame by Author7",
+				placardTitleText:"Tux and Fanny",
+				placardDescriptionText:"\"... you can also just play as a cat!\"",
+				placardAuthorText:"A videogame by Gabriel Koenig & Alvert Birney",
 				gameplayText:"The gameplay7 fills your senses...",
-				gameplayUrl:"https://itch.io/game7"
-            },
+				gameplayUrl:"https://meansinteractive.itch.io/tux-and-fanny"
+            }
         },
 		oldspaceBar: {
 			left: {
                 thingId: "Left",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 8",
-				placardDescriptionText:"\"A test description 8.\"",
-				placardAuthorText:"A videogame by Author8",
+				placardTitleText:"Art of Rally",
+				placardDescriptionText:"\"Race in the golden era of rally.\"",
+				placardAuthorText:"A videogame by FunSelektor",
 				gameplayText:"The gameplay8 fills your senses...",
-				gameplayUrl:"https://itch.io/game8"
+				gameplayUrl:"https://artofrally.com/"
             },
-			
+			Right: {
+                thingId: "Right",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Stockroom Scramble",
+				placardDescriptionText:"\"..A gutsy homage to handheld electronic games..\"",
+				placardAuthorText:"A videogame by Playful Fox Games",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://www.playfulfoxgames.com/stockroom-scramble"
+            },
 			projector: {
                 thingId: "Projector",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 9",
-				placardDescriptionText:"\"A test description 9.\"",
-				placardAuthorText:"A videogame by Author9",
+				placardTitleText:"Stamped: an anti travel game",
+				placardDescriptionText:"\"..this is about real ongoing places, & real ongoing struggles..\"",
+				placardAuthorText:"A videogame by Transpacific Confab",
 				gameplayText:"The gameplay9 fills your senses...",
-				gameplayUrl:"https://itch.io/game9"
-            },
+				gameplayUrl:"https://drchrisp.itch.io/stamped-an-anti-travel-game"
+            }
 		},
 		oldspaceOutside: {
 			mainframe: {
                 thingId: "Mainframe",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
-				placardTitleText:"Testing Game 10",
-				placardDescriptionText:"\"a test description 10.\"",
-				placardAuthorText:"A videogame by Author10",
+				placardTitleText:"Hoops into Dreams",
+				placardDescriptionText:"\A whimsical pseudo-realistic basketball-like game.\"",
+				placardAuthorText:"A videogame by Mokesmoe",
 				gameplayText:"The gameplay10 fills your senses...",
-				gameplayUrl:"https://itch.io/game10"
+				gameplayUrl:"https://gamesinaction.squarespace.com/hoops-into-dreams"
             },
+			mainframe2: {
+                thingId: "Mainframe2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Glitchhikers: The Spaces Between",
+				placardDescriptionText:"\"4 introspective, freeform journeys under moonlight.\"",
+				placardAuthorText:"A videogame by Silverstring Media",
+				gameplayText:"The gameplay10 fills your senses...",
+				gameplayUrl:"https://www.glitchhikers.com/"
+            },
+			left: {
+                thingId: "Left",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Street Uni X",
+				placardDescriptionText:"\"Extreme street cyling in PS1 style.\"",
+				placardAuthorText:"A videogame by daffodil & friends",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://daffodil.itch.io/street-uni-x"
+            },
+			Right: {
+                thingId: "Right",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Golf on Mars",
+				placardDescriptionText:"\"Do you think we will ever discover golf on Mars?\"",
+				placardAuthorText:"A videogame by Justin Smith",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://captaingames.itch.io/golf-on-mars"
+            },
+			Right2: {
+                thingId: "Right2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Caravan",
+				placardDescriptionText:"\"Meet the gods as a travelling merchant.\"",
+				placardAuthorText:"A videogame by Joy, Josephine & Gordon @ Epic Story Interactive",
+				gameplayText:"The gameplay8 fills your senses...",
+				gameplayUrl:"https://onionclub.itch.io/caravan"
+            }
 		},
+		stairwell2: {
+            Right: {
+                thingId: "Right",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"After Work",
+				placardDescriptionText:"\"After work hours... curiosity gets the better of you.\"",
+				placardAuthorText:"A videogame by Catherine Winters",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://gamesinaction.squarespace.com/after-work"
+            },
+			Left: {
+                thingId: "Left",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Minetest Classroom",
+				placardDescriptionText:"\"An open source voxel game engine.\"",
+				placardAuthorText:"A videogame by Paul Pickell",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://gamesinaction.squarespace.com/minetest-classroom"
+            }
+		},
+		stairwell: {
+            Right: {
+                thingId: "Right",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Cis Penance",
+				placardDescriptionText:"\"..Interactive documentary, 60 interviews with transgender people..\"",
+				placardAuthorText:"A videogame by Zoyander Street",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://zoy.itch.io/cispenance"
+            },
+			Right2: {
+                thingId: "Right2",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Grant Haffner Fangame",
+				placardDescriptionText:"\"Based on paintings by Grant Haffner.\"",
+				placardAuthorText:"A videogame by Malcolm MacDonald",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://malcolmmacdonald.itch.io/grant-haffner-fangame"
+            },
+			Left: {
+                thingId: "Left",
+                screenGradientPath:"assets/monitorGradientGlow1.png",
+				placardTitleText:"Cordychosis",
+				placardDescriptionText:"\"One room and time travel.\"",
+				placardAuthorText:"A videogame by Jessi Ross",
+				gameplayText:"The gameplay1 fills your senses...",
+				gameplayUrl:"https://mrhoneybunch.com/games/"
+            }
+        }
     }
 }
 
@@ -455,6 +557,37 @@ function oldspaceOutsideDrawThing(thingId, sprite, drawingFunction)
 {
 	curatedRoomDrawThing("oldspaceOutside", thingId, sprite, drawingFunction);
 }
+
+// stairwell1 and stairwell2
+
+function stairwellEnter(playerId, roomId)
+{
+	curatedRoomEnter(playerId, roomId);
+}
+
+function stairwellUpdate() {
+	curatedRoomUpdate("stairwell");
+}
+
+function stairwellDrawThing(thingId, sprite, drawingFunction)
+{
+	curatedRoomDrawThing("stairwell", thingId, sprite, drawingFunction);
+}
+
+function stairwell2Enter(playerId, roomId)
+{
+	curatedRoomEnter(playerId, roomId);
+}
+
+function stairwell2Update() {
+	curatedRoomUpdate("stairwell2");
+}
+
+function stairwell2DrawThing(thingId, sprite, drawingFunction)
+{
+	curatedRoomDrawThing("stairwell2", thingId, sprite, drawingFunction);
+}
+
 
 // CURATED ROOM FUNCTIONS START HERE 
 
@@ -1054,22 +1187,14 @@ function TPCAApartmentsTalk (playerId, bubble) {
 
 function TPCAMapRoomEnter(playerId, roomId) {
 	
-		var randomText = floor(random(1, 4));
+		var randomText = floor(random(1, 2));
 		
 		if (randomText == 1) {    
-			longText = "If we could go anywhere...";
-			longTextLines = -1;
-			longTextAlign = "center";
-		} else if (randomText == 2) {    
-			longText = "Where am I?";
-			longTextLines = -1;
-			longTextAlign = "center";
-		} else if (randomText == 3) {    
-			longText = "Do I belong here?";
+			longText = "We dreamt together\nfollowing invisible lines\nfrom ancient memory\nback home\nin new bodies";
 			longTextLines = -1;
 			longTextAlign = "center";
 		} else {
-			longText = "What are you doing here?";
+			longText = "We dreamt together\nfollowing invisible lines\nfrom ancient memory\nback home\nin new bodies";
 			longTextLines = -1;
 			longTextAlign = "center";
 		}
