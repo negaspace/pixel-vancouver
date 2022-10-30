@@ -1184,8 +1184,33 @@ function TPCAApartmentsTalk (playerId, bubble) {
   }
 }
 
+//when ANYBODY Enters
+//function maproomEnter(playerId, sprite, drawingFunction) {
+    //somebody else is entering - turn into sheep
+    //if (playerId = me.id) {
+    //    turnToFish(playerId);
+    //}
+//}
 
-function TPCAMapRoomEnter(playerId, roomId) {
+function TPCAMapRoomIntro(playerId, roomId) {
+    turnToFish(playerId);
+}
+
+function turnToFish(playerId) {
+    var p = players[playerId];
+
+    //sheepIdle has been preloaded via DATA
+    p.fishWalkAnimation = loadAnimation(loadSpriteSheet(IMAGES.fishWalk, 11, 18, 3));
+    p.fishIdleAnimation = loadAnimation(loadSpriteSheet(IMAGES.fishIdle, 11, 18, 2));
+    removeSprite(p.sprite);
+    p.sprite = createSprite(10, 10);
+    p.sprite.scale = ASSET_SCALE;
+    p.sprite.depthOffset = 18 / 2;
+    p.sprite.addAnimation('walk', p.fishWalkAnimation);
+    p.sprite.addAnimation('emote', p.fishIdleAnimation);
+}
+
+function TPCAMapRoomEnter(playerId, roomId, sprite, drawingFunction) {
 	
 		var randomText = floor(random(1, 2));
 		
@@ -1202,7 +1227,8 @@ function TPCAMapRoomEnter(playerId, roomId) {
 
 	
     if (playerId == me.id) {
-	
+        turnToFish(playerId);
+
         var s = localStorage.getItem("maproom");
 
         if (s == null) {

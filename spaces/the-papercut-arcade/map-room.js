@@ -11,11 +11,11 @@ module.exports = {
             // exits
             hff0000: { cmd: "enter", room: "TPCAHallway1", label: "CHANGE SHAPE", point: [62, 47], enterPoint: [115, 43], obstacle: false },
 			h4e4e4e: { cmd: "text", label: "eggs", txt: "you're still carrying your yolk", point: [104, 45], obstacle: false },
-			he54c84: { cmd: "text", label: "i dreamt", txt: "of growing two legs and remembering", point: [104, 55], obstacle: false },
+			he54c84: { cmd: "text", label: "i remember", txt: "our continuity from water to land", point: [104, 55], obstacle: false },
 			hffff00: { cmd: "text", label: "i dreamt", txt: "of my body bursting open with trees", point: [123, 66], obstacle: false },
 			h0000ff: { cmd: "text", label: "i dreamt", txt: "of riverbanks disappearing into infinity", point: [98, 20], obstacle: false },
 			h00ffff: { cmd: "text", label: "i dreamt", txt: "of liquid bodies poured into new shapes", point: [84, 20], obstacle: false },
-			hff6d00: { cmd: "text", label: "i dreamt", txt: "of becoming a bird", point: [18, 95], obstacle: false },
+			hff6d00: { cmd: "text", label: "i dreamt", txt: "of breaking the refraction", point: [18, 95], obstacle: false },
 			hff00ee: { cmd: "text", label: "i dreamt", txt: "of the smell of cedar and pine compost", point: [35, 52], obstacle: false },
 			h00ff24: { cmd: "text", label: "!", txt: "kinda busy here!", point: [70, 68], obstacle: false },
 			h9c00ff: { cmd: "text", label: "i dreamt", txt: "of going frozen and static plastic mummy", point: [9, 49], obstacle: false },
@@ -27,14 +27,15 @@ module.exports = {
 		
 		things: {
             //sprite spreadsheets only 1 row ok?
-            maproom1: { file: "labyrinthroom-1.png", position: [0, 0], depthAdjust:-360, visible: false },
-            maproom2: { file: "labyrinthroom-2.png", position: [0, 0], depthAdjust:-360, visible: false },
-            maproom3: { file: "labyrinthroom-3.png", position: [0, 0], depthAdjust:-360, visible: false },
-            maproom4: { file: "labyrinthroom-4.png", position: [0, 0], depthAdjust:-360, visible: false },
+            maproom1: { file: "labyrinthroom-1.png", position: [0, 0], depthAdjust:5, visible: false },
+            maproom2: { file: "labyrinthroom-2.png", position: [0, 0], depthAdjust:5, visible: false },
+            maproom3: { file: "labyrinthroom-3.png", position: [0, 0], depthAdjust:5, visible: false },
+            maproom4: { file: "labyrinthroom-4.png", position: [0, 0], depthAdjust:5, visible: false },
 			tree: { file: "labyrinthroom-tree1.png", position: [64, 20], depthAdjust:5 },
-			tree2: { file: "labyrinthroom-tree1.png", position: [119, 83], depthAdjust:50 },
+			tree2: { file: "labyrinthroom-tree1.png", position: [115, 80], depthAdjust:50 },
 			ripple: { file: "labyrinth_water.png", frames: 3, frameDelay: 8, position: [49, 65], depthAdjust:-20 },
 			waterfall: { file: "labyrinth_waterfall.png", frames: 3, frameDelay: 4, position: [59, 66], depthAdjust:-30 },
+			tree: { file: "labyrinthroom-fishOL.png", position: [64, 64], depthAdjust:5 },
 			
 		},
     },
