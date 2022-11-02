@@ -23,7 +23,7 @@ module.exports = {
 			//didactic panels
 		h450000: {cmd: "text", label: "Tour Information Panel", txt: "No tours are currently scheduled", point: [17, 91], align: "center", lines: 1, },
 		h666633: {cmd: "text", label: "Exhibit Label", txt: "The Filthy Lyre \nChristopher Alan Slater, 2021", point: [16, 25], align: "center", lines: 2, },
-		h6666cc: {cmd: "text", label: "Exhibit Label", txt: "River Dream\nLouise Chow, 2021\nSwimming together means we won't get lost", point: [113, 35], align: "center", lines: 4, },
+		h6666cc: {cmd: "text", label: "Exhibit Label", txt: "River Dream\nLouise Chow, 2021\nAn experience based on collective movement ecology, through \nthe eyes of salmon kin. Swimming together advised.", point: [113, 35], align: "center", lines: 6, },
 		hff9999: {cmd: "text", label: "Exhibit Label", txt: "All Genders Universal Washroom\nKay Slater, 2021\n\nDigital sculpture.\n\nNo budget restrictions, homophobic and transantagonistic policies, or focused-on-code-only facilities managers (and architects) allowed dreaming space.", point: [113, 63], align: "center", lines: 11, },
 	
         },
@@ -39,9 +39,9 @@ module.exports = {
         area: "TPCAhallway2-areas.png",
         areaColors: {
             // exits
-        h7c7c7c: { cmd: "enter", room: "TPCAcheckin", label: "Check-Up Room", point: [11, 48], enterPoint: [38, 62], obstacle: false },
+        h7c7c7c: { cmd: "enter", room: "TPCAcheckin", label: "UnClinic Patients", point: [11, 48], enterPoint: [38, 62], obstacle: false },
 		
-		h00ffee: { cmd: "enter", room: "TPCAcheckin", label: "Go to work", point: [117, 48], enterPoint: [86, 67], obstacle: false },
+		h00ffee: { cmd: "enter", room: "TPCAcheckin", label: "Unclinic Staff", point: [117, 48], enterPoint: [86, 67], obstacle: false },
    
         h0000ff: { cmd: "enter", room: "TPCAFireRoom", label: "Bonfire", point: [95, 16], enterPoint: [15, 94], obstacle: false },
 		
@@ -53,8 +53,8 @@ module.exports = {
 
 			//didactic panels
 
-		h450000: {cmd: "text", label: "Exhibit Label", txt: "Patient Room\nLouise Chow, 2021\n Be patient with each other here", point: [16, 32], align: "center", lines: 2, },
-		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, Brendan Vance, 2021\nA room to find your reflection\n\in an other again.", point: [45, 19], align: "center", lines: 4, },
+		h450000: {cmd: "text", label: "Exhibit Label", txt: "UnClinic\nLouise Chow, 2021\nThe artist suffered medical\nparanoia in the past few years.\nWhat parts of ourselves can we take comfort in? ", point: [16, 32], align: "center", lines: 6, },
+		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, Brendan Vance, 2021\nA room to find your reflection and new colours, through sense and presence.", point: [45, 19], align: "center", lines: 5, },
 		hff6600: {cmd: "text", label: "Exhibit Label", txt: "The Bonfire Effect (narrative series)\nKay Slater, 2021\n\nAn exploration of intimacy via pixels, flames, and storytelling.\n\nScheduled story times will be posted on the tour info panel in the main hall. The bonfire can be visited anytime.", point: [82, 20], align: "center", lines: 11, },
 		hfeff00: {cmd: "text", label: "Exhibit Label", txt: "Visit our website through\nthis public terminal", point: [112, 72], align: "center", lines: 2, },
                 h666633: {cmd: "text", label: "Exit Sign", txt: "", point: [15, 80], align: "center", lines: 1, },

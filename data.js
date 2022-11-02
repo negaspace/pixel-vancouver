@@ -17,6 +17,8 @@ module.exports.SETTINGS = {
 
 //miscellaneous assets to preload
 module.exports.IMAGES = [
+	["fishWalk", "fish-walk.png"],
+	["fishIdle", "fish-idle.png"],
     ["sheepIdle", "sheep-idle.png"],
     ["sheepWalk", "sheep-walk.png"],
     ["wifeWalk", "wife.png"],
