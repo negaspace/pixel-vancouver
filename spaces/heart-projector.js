@@ -21,7 +21,7 @@ module.exports = {
 			
 			curationRightScreen: { file: "screenSmall.png", frames: 1, position: [61, 66], visible:true, label: "A game", depthAdjust:14, command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [61, 82] } },
 			curationRightScreenGlow: { file: "screenSmallGlow.png", frames: 2, frameDelay: 60, position: [51, 56], visible:true, depthAdjust:4 },
-			curationRightPlacard: { file: "placardTable.png", frames: 1, position: [69, 70], visible:true, label: "A placard", depthAdjust:12, command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [63, 79] } },
+			curationRightPlacard: { file: "placardTable.png", frames: 1, position: [69, 70], visible:true, label: "A placard", depthAdjust:12, command: { cmd: "text", txt: "Ayyyyy", align: "left", lines: 4, label: "A huggy game", point: [60, 81] } },
 			
 			curationProjectorScreen: { file: "screenProjectorBar.png", frames: 1, position: [99, 12], visible:true, label: "A game", command: { cmd: "text", txt: "The gameplay fills your senses . . .", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", point: [103, 97] } },
 			curationProjectorScreenGlow: { file: "screenProjectorBarGlow.png", frames: 2, frameDelay: 60, position: [99, 12], visible:true },

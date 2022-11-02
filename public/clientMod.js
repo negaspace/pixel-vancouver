@@ -275,7 +275,7 @@ var curationData = {
 				placardTitleText:"I Was A Teenage Exocolonist",
 				placardDescriptionText:"\"Coming of age on a faraway planet.\"",
 				placardAuthorText:"A videogame by Northway Games",
-				gameplayText:"The gameplay1 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://exocolonist.com/"
             },
             left: {
@@ -284,7 +284,7 @@ var curationData = {
 				placardTitleText:"Mossfield Origins",
 				placardDescriptionText:"\"Regeneration and community in a cozy city builder.\"",
 				placardAuthorText:"A videogame by Studio Any Percent",
-				gameplayText:"The gameplay2 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://anypercent.studio/mossfield-origins/"
             },
 			tableLeft: {
@@ -293,7 +293,8 @@ var curationData = {
 				placardTitleText:"Hill Agency: PURITY/decay",
 				placardDescriptionText:"\"Mystery in a cybernoir Indigenous future..\"",
 				placardAuthorText:"A videogame by Achimostawinan Games",
-				gameplayText:"The gameplay3 fills your senses...",
+				placardAuthorTextLines:5,
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://achimogames.itch.io/hill-agency-puritydecay"
             },
 			tableRight: {
@@ -302,7 +303,7 @@ var curationData = {
 				placardTitleText:"River Sturge",
 				placardDescriptionText:"\"..This fish dreams of being the BIGGEST.\"",
 				placardAuthorText:"A videogame by Kyle Van Winkoop",
-				gameplayText:"The gameplay4 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://gamesinaction.squarespace.com/kyle-van-winkoop"
             },
             projector: {
@@ -311,7 +312,7 @@ var curationData = {
 				placardTitleText:"Shape of the World",
 				placardDescriptionText:"\"..a forest of sound and light will spring up around you..\"",
 				placardAuthorText:"A videogame by Stu Maxwell",
-				gameplayText:"The gameplay5 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"http://www.shapeoftheworldgame.com/game"
             }
         },
@@ -322,7 +323,7 @@ var curationData = {
 				placardTitleText:"Shock Lobster",
 				placardDescriptionText:"\"An aquaventure for the Game Boy!\"",
 				placardAuthorText:"A videogame by tbsp",
-				gameplayText:"The gameplay6 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://tbsp.itch.io/shock-lobster"
             },
 			left2: {
@@ -331,7 +332,7 @@ var curationData = {
 				placardTitleText:"Circuit Superstars",
 				placardDescriptionText:"\"A top-down racer built by racing fans, for racing fans.\"",
 				placardAuthorText:"A videogame by Original Fire Games",
-				gameplayText:"The gameplay6 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://www.circuit-superstars.com/"
             },
             right: {
@@ -340,7 +341,8 @@ var curationData = {
 				placardTitleText:"Tux and Fanny",
 				placardDescriptionText:"\"... you can also just play as a cat!\"",
 				placardAuthorText:"A videogame by Gabriel Koenig & Alvert Birney",
-				gameplayText:"The gameplay7 fills your senses...",
+				placardAuthorTextLines:5,
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://meansinteractive.itch.io/tux-and-fanny"
             }
         },
@@ -351,7 +353,7 @@ var curationData = {
 				placardTitleText:"Art of Rally",
 				placardDescriptionText:"\"Race in the golden era of rally.\"",
 				placardAuthorText:"A videogame by FunSelektor",
-				gameplayText:"The gameplay8 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://artofrally.com/"
             },
 			Right: {
@@ -360,7 +362,7 @@ var curationData = {
 				placardTitleText:"Stockroom Scramble",
 				placardDescriptionText:"\"..A gutsy homage to handheld electronic games..\"",
 				placardAuthorText:"A videogame by Playful Fox Games",
-				gameplayText:"The gameplay8 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://www.playfulfoxgames.com/stockroom-scramble"
             },
 			projector: {
@@ -369,7 +371,8 @@ var curationData = {
 				placardTitleText:"Stamped: an anti travel game",
 				placardDescriptionText:"\"..this is about real ongoing places, & real ongoing struggles..\"",
 				placardAuthorText:"A videogame by Transpacific Confab",
-				gameplayText:"The gameplay9 fills your senses...",
+				placardAuthorTextLines:5,
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://drchrisp.itch.io/stamped-an-anti-travel-game"
             }
 		},
@@ -380,7 +383,7 @@ var curationData = {
 				placardTitleText:"Hoops into Dreams",
 				placardDescriptionText:"\A whimsical pseudo-realistic basketball-like game.\"",
 				placardAuthorText:"A videogame by Mokesmoe",
-				gameplayText:"The gameplay10 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://gamesinaction.squarespace.com/hoops-into-dreams"
             },
 			mainframe2: {
@@ -389,7 +392,7 @@ var curationData = {
 				placardTitleText:"Glitchhikers: The Spaces Between",
 				placardDescriptionText:"\"4 introspective, freeform journeys under moonlight.\"",
 				placardAuthorText:"A videogame by Silverstring Media",
-				gameplayText:"The gameplay10 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://www.glitchhikers.com/"
             },
 			left: {
@@ -398,7 +401,7 @@ var curationData = {
 				placardTitleText:"Street Uni X",
 				placardDescriptionText:"\"Extreme street cyling in PS1 style.\"",
 				placardAuthorText:"A videogame by daffodil & friends",
-				gameplayText:"The gameplay8 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://daffodil.itch.io/street-uni-x"
             },
 			Right: {
@@ -407,7 +410,7 @@ var curationData = {
 				placardTitleText:"Golf on Mars",
 				placardDescriptionText:"\"Do you think we will ever discover golf on Mars?\"",
 				placardAuthorText:"A videogame by Justin Smith",
-				gameplayText:"The gameplay8 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://captaingames.itch.io/golf-on-mars"
             },
 			Right2: {
@@ -416,7 +419,8 @@ var curationData = {
 				placardTitleText:"Caravan",
 				placardDescriptionText:"\"Meet the gods as a travelling merchant.\"",
 				placardAuthorText:"A videogame by Joy, Josephine & Gordon @ Epic Story Interactive",
-				gameplayText:"The gameplay8 fills your senses...",
+				placardAuthorTextLines:5,
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://onionclub.itch.io/caravan"
             }
 		},
@@ -427,7 +431,7 @@ var curationData = {
 				placardTitleText:"After Work",
 				placardDescriptionText:"\"After work hours... curiosity gets the better of you.\"",
 				placardAuthorText:"A videogame by Catherine Winters",
-				gameplayText:"The gameplay1 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://gamesinaction.squarespace.com/after-work"
             },
 			Left: {
@@ -436,7 +440,7 @@ var curationData = {
 				placardTitleText:"Minetest Classroom",
 				placardDescriptionText:"\"An open source voxel game engine.\"",
 				placardAuthorText:"A videogame by Paul Pickell",
-				gameplayText:"The gameplay1 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://gamesinaction.squarespace.com/minetest-classroom"
             }
 		},
@@ -445,9 +449,10 @@ var curationData = {
                 thingId: "Right",
                 screenGradientPath:"assets/monitorGradientGlow1.png",
 				placardTitleText:"Cis Penance",
-				placardDescriptionText:"\"..Interactive documentary, 60 interviews with transgender people..\"",
+				placardDescriptionText:"\"Explore trans experience through interview in this interactive documentary.\"",
 				placardAuthorText:"A videogame by Zoyander Street",
-				gameplayText:"The gameplay1 fills your senses...",
+				placardAuthorTextLines:5,
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://zoy.itch.io/cispenance"
             },
 			Right2: {
@@ -456,7 +461,7 @@ var curationData = {
 				placardTitleText:"Grant Haffner Fangame",
 				placardDescriptionText:"\"Based on paintings by Grant Haffner.\"",
 				placardAuthorText:"A videogame by Malcolm MacDonald",
-				gameplayText:"The gameplay1 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://malcolmmacdonald.itch.io/grant-haffner-fangame"
             },
 			Left: {
@@ -465,7 +470,7 @@ var curationData = {
 				placardTitleText:"Cordychosis",
 				placardDescriptionText:"\"One room and time travel.\"",
 				placardAuthorText:"A videogame by Jessi Ross",
-				gameplayText:"The gameplay1 fills your senses...",
+				gameplayText:"The gameplay fills your senses...",
 				gameplayUrl:"https://mrhoneybunch.com/games/"
             }
         }
@@ -624,7 +629,14 @@ function curatedRoomEnter(playerId, roomId)
 					placardString = "An unmarked placard.";
 				}
 				
+				var lines = 4;
+				if(isDefined(cd.placardAuthorTextLines))
+				{
+					lines = cd.placardAuthorTextLines;
+				}
+				
 				ROOMS[roomId].things[placardThingId].command.txt = placardString;
+				ROOMS[roomId].things[placardThingId].command.lines = lines;
 			}
 			
 			if(isDefined(ROOMS[roomId].things[screenThingId].command.txt)) {
@@ -1200,12 +1212,12 @@ function turnToFish(playerId) {
     var p = players[playerId];
 
     //sheepIdle has been preloaded via DATA
-    p.fishWalkAnimation = loadAnimation(loadSpriteSheet(IMAGES.fishWalk, 11, 18, 3));
+    p.fishWalkAnimation = loadAnimation(loadSpriteSheet(IMAGES.fishWalk, 11, 18, 4));
     p.fishIdleAnimation = loadAnimation(loadSpriteSheet(IMAGES.fishIdle, 11, 18, 2));
     removeSprite(p.sprite);
     p.sprite = createSprite(10, 10);
     p.sprite.scale = ASSET_SCALE;
-    p.sprite.depthOffset = 18 / 2;
+    p.sprite.depthOffset = 18/2;
     p.sprite.addAnimation('walk', p.fishWalkAnimation);
     p.sprite.addAnimation('emote', p.fishIdleAnimation);
 }
@@ -1215,13 +1227,13 @@ function TPCAMapRoomEnter(playerId, roomId, sprite, drawingFunction) {
 		var randomText = floor(random(1, 2));
 		
 		if (randomText == 1) {    
-			longText = "We dreamt together\nfollowing invisible lines\nfrom ancient memory\nback home\nin new bodies";
+			longText = "We dreamt together\n of the other side of refraction \n of coming home to the world \nswimming along invisible lines";
 			longTextLines = -1;
-			longTextAlign = "center";
+			longTextAlign = "left";
 		} else {
-			longText = "We dreamt together\nfollowing invisible lines\nfrom ancient memory\nback home\nin new bodies";
+			longText = "We dreamt together\nfollowing invisible lines\nfrom ancient memory\nback home \nin new bodies";
 			longTextLines = -1;
-			longTextAlign = "center";
+			longTextAlign = "left";
 		}
 
 

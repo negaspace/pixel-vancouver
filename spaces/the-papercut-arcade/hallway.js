@@ -54,7 +54,7 @@ module.exports = {
 			//didactic panels
 
 		h450000: {cmd: "text", label: "Exhibit Label", txt: "UnClinic\nLouise Chow, 2021\nThe artist suffered medical\nparanoia in the past few years.\nWhat parts of ourselves can we take comfort in? ", point: [16, 32], align: "center", lines: 6, },
-		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, Brendan Vance, 2021\nA room to find your reflection and new colours\n through human interaction.", point: [45, 19], align: "center", lines: 4, },
+		hff9999: {cmd: "text", label: "Exhibit Label", txt: "Lost and Found\nLouise Chow, Brendan Vance, 2021\nA room to find your reflection and new colours, through sense and presence.", point: [45, 19], align: "center", lines: 5, },
 		hff6600: {cmd: "text", label: "Exhibit Label", txt: "The Bonfire Effect (narrative series)\nKay Slater, 2021\n\nAn exploration of intimacy via pixels, flames, and storytelling.\n\nScheduled story times will be posted on the tour info panel in the main hall. The bonfire can be visited anytime.", point: [82, 20], align: "center", lines: 11, },
 		hfeff00: {cmd: "text", label: "Exhibit Label", txt: "Visit our website through\nthis public terminal", point: [112, 72], align: "center", lines: 2, },
                 h666633: {cmd: "text", label: "Exit Sign", txt: "", point: [15, 80], align: "center", lines: 1, },
