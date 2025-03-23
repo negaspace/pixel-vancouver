@@ -3,12 +3,13 @@ const stairwell = require("./spaces/stairwell");
 const heartProjector = require("./spaces/heart-projector");
 const elevator = require("./spaces/elevator");
 const thePapercutArcade = require("./spaces/the-papercut-arcade");
+const pixelVancouverMap = require("./spaces/pixel-vancouver-map");
 
 //settings are just variables that can be sent to the client from the server
 //they are either related to the rooms or shared with the server 
 module.exports.SETTINGS = {
     //if not specified by the url where is the starting point
-    defaultRoom: "powellAndClark",
+    defaultRoom: "vanMapC04",
     //minimum time between talk messages enforced by both client and server
     ANTI_SPAM: 1000,
     //shows up at first non lurking login
@@ -55,4 +56,5 @@ module.exports.ROOMS = {
     ...heartProjector,
     ...elevator,
     ...thePapercutArcade,
+	...pixelVancouverMap,
 };
